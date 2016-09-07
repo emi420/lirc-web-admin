@@ -5,6 +5,7 @@
 ## Install and run
 
 * Install requirements 'pip install -r reqs.txt'
+# Check client settings on /app/controllers.js
 * Run 'python webserver.py'
 * Open 'http://SERVER:8001/'
 
