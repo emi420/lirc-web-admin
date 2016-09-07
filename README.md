@@ -6,7 +6,7 @@
 
 * Install requirements 'pip install -r reqs.txt'
 * Run 'python webserver.py'
-* Open 'http://<server-ip>:8001/'
+* Open 'http://SERVER:8001/'
 
 ## License
 
