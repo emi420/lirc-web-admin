@@ -25,7 +25,7 @@ class IRRecord(object):
         self.launched = False
 
     def launch(self):
-        if self.process:
+        if self.launched:
             self.process.kill(0)
         if path.isfile(self._CFG_FILE):
             remove(self._CFG_FILE)

@@ -13,6 +13,7 @@
 '''
 from irrecord import IRRecord
 from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
+from os import curdir, sep
 
 '''
 APIServer create a simple web server for administration
